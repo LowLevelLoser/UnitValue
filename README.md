@@ -80,3 +80,4 @@ Returns a `containers.Map` object mapping names like `"m"`, `"s"`, `"kg"` to the
 ## Planned Features
 - more derived units
 - conversion functions to different units
+- maybe calculus
