@@ -2,7 +2,7 @@
 # UnitValue – A MATLAB Runtime Unit Checking Library
 
 **UnitValue** is a MATLAB library for associating SI unit metadata with values (scalars or arrays), enabling basic arithmetic and dimensional consistency checks at runtime. It is primarily intended for **debugging and validation**, catching errors like adding quantities with incompatible units.
-I suggest that you rewrite your progam without after you finish when using thia library.
+I suggest that you rewrite your progam without it after you finish when using this library to debug you program.
 
 ## Getting Started
 
