@@ -66,7 +66,7 @@ disp(energy);
 | `+`, `-`                  | Values must have the same unit vector  |
 | `*`, `/`                  | Unit vectors are added/subtracted      |
 | `^`, `.^`                 | Scalar exponent multiplies unit vector |
-| `disp()`                  | Displays value and unit vector         |
+| `disp()`                  | Displays value with units              |
 | `UnitValue.known_units()` | Returns map of common SI units         |
 
 ## Static Methods
