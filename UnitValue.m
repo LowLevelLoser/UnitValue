@@ -91,14 +91,15 @@ classdef UnitValue
         function dict = known_units()
             % SI base units
             dict = containers.Map();
-            dict("kg")  = [1 0 0 0 0 0 0];
-            dict("m")   = [0 1 0 0 0 0 0];
-            dict("s")   = [0 0 1 0 0 0 0];
-            dict("A")   = [0 0 0 1 0 0 0];
-            dict("K")   = [0 0 0 0 1 0 0];
-            dict("mol") = [0 0 0 0 0 1 0];
-            dict("cd")  = [0 0 0 0 0 0 1];
-
+            dict("kg")   = [1 0 0 0 0 0 0];
+            dict("m")    = [0 1 0 0 0 0 0];
+            dict("s")    = [0 0 1 0 0 0 0];
+            dict("A")    = [0 0 0 1 0 0 0];
+            dict("K")    = [0 0 0 0 1 0 0];
+            dict("mol")  = [0 0 0 0 0 1 0];
+            dict("cd")   = [0 0 0 0 0 0 1];
+            dict("num")  = [0 0 0 0 0 0 0];
+            
             % Derived units
             dict("N") = dict("kg") + dict("m") + dict("s") * -2;
             dict("J") = dict("N") + dict("m");
