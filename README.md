@@ -42,7 +42,7 @@ bad = length + UnitValue(3, u("s"));  % meters + seconds
 ### 4. Display result
 
 ```matlab
-disp(volume);  % prints value and unit vector
+disp(volume);  % prints value with units
 ```
 
 ## Example: Kinetic Energy
